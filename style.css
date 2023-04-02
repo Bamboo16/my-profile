@@ -1,0 +1,175 @@
+/*Color and fonts*/
+body {
+    background: #78938A;
+    color: rgb(100, 100, 100);
+    font-family: 'Lora', serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #8B7E74;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+a {
+    text-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #8B7E74;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+a:hover {
+    color: white;
+}
+
+.images {
+    width: 10px;
+}
+
+.videos {
+    width: 300px;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+.card-pink {
+    background-color: #D5BFBF;
+    padding: 40px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin: 30px 0;
+
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.space-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: justify;
+    align-items: center;
+}
+
+.card-white {
+    background-color: #E5DFDF;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.skills-container {
+    background-color: #E5DFDF;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.card-white img {
+    border-radius: 10px;
+}
+
+.hobbies {
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+.images-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.img-container-pp {
+    text-align: center;
+}
+
+.img-pp {
+    width: 14rem !important;
+    height: 14rem !important;
+}
+
+.circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 12rem;
+    height: 12rem;
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-beige {
+    background-color: #8B7E74;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.btn-beige:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 15px;
+}
+
+.list-inline i {
+    font-size: 80px;
+}
+
+.list-inline i hover {
+    font-size: 30px;
+}
+
+
+
